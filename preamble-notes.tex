@@ -1,20 +1,47 @@
 \usepackage{pgfpages}
 \usepackage{xeCJK}
+\usepackage{fontspec}
 \setCJKmainfont{IPAMincho} % for \rmfamily
 \setCJKsansfont{IPAGothic} % for \sffamily
 \setbeameroption{show notes}
 \setbeamertemplate{note page}[plain]
 
 \usefonttheme{professionalfonts}
+%\setmonofont[Scale=0.8]{Latin Modern Mono}
 %\setmainfont{Garamond Premier Pro}
 
 % stick slide number on each note: notice division by two!
 
 \usepackage{calc}
 \newcounter{curslide}
+
+\usepackage{xcolor}
+
+\lstset{
+    basicstyle=\ttfamily,
+    numbers=left,
+    keywordstyle=\color[rgb]{0.13,0.29,0.53}\bfseries,
+    stringstyle=\color[rgb]{0.31,0.60,0.02},
+    commentstyle=\color[rgb]{0.56,0.35,0.01}\itshape,
+    numberstyle=\footnotesize,
+    stepnumber=1,
+    numbersep=5pt,
+    backgroundcolor=\color[RGB]{248,248,248},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2,
+    captionpos=b,
+    breaklines=true,
+    breakatwhitespace=true,
+    breakautoindent=true,
+    escapeinside={\%*}{*)},
+    linewidth=\textwidth,
+    basewidth=0.5em,
+}
+
 % \addtobeamertemplate{note page}{%
 %     \setcounter{curslide}{\thepage / 2}%
 % 	SLIDE \thecurslide \par}{}
-
 % force notes on each slide
 % http://tex.stackexchange.com/questions/11708/run-macro-on-each-frame-in-beamer
