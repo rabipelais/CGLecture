@@ -6,8 +6,7 @@ date: Nicht vor 5 Minuten fertig gemacht
 
 # Organisatorisches
 
-> - Das bin ich:
-> - Sebastian Mendez, Master Informatik Student am KIT
+> - Das bin ich: ![Sebastian Mendez, Master Informatik Student am KIT](img/sebas.png)
 > - Lieblingsessen: Pizza
 
 <!--- TODO: Joke about Venezuela? -->
@@ -28,15 +27,15 @@ Kontakt: sebastian.siem@student.kit.edu || sebas.chinoir@gmail.com
 
 # Ziel:
 
-GAMES!!!
+##GAMES!!!
 
-<!-- TODO: Foto -->
+![:D](img/happy.jpg)
 
 ----------------------------
 
-## Ok...eher Graphics
+## Ok...vielleicht nur Graphics
 
-<!-- TODO -->
+![:(](img/sad.jpg)
 
 ----------------------------
 
@@ -44,7 +43,23 @@ GAMES!!!
 
 ---------------------------
 
-<!-- TODO Pictures of Game Engs -->
+![Unreal Engine](img/unreal.png)
+
+---------------------------
+
+![OGRE. Game Graphics "Framework"](img/ogre.png)
+
+---------------------------
+
+![CryEngine](img/cryengine.jpg)
+
+---------------------------
+
+![Nethack](img/nethack.png)
+
+---------------------------
+
+![RPG Maker](img/rpg-maker.jpg)
 
 ---------------------------
 
@@ -57,6 +72,7 @@ GAMES!!!
 > - Genre spezifisch
 > - Hat Tools (oder auch nicht)
 > - Teil des Spiels (oder auch nicht)
+> - Runtime vs. Development Time
 > - **Wiederverwendbar**
 > - **Erweiterbar**
 
@@ -68,7 +84,7 @@ Nach Jason Gregory:
 
 -------------------------
 
-<!-- TODO: Picture of window -->
+![Ein Window](img/window.png)
 
 # Inhalt
 
@@ -76,7 +92,6 @@ Nach Jason Gregory:
     + WinMain
 	+ MessagePump
 	+ Libraries
-	+ Windows Apps
 
 * OpenGL
 	+ Welches OpenGL?
@@ -136,3 +151,11 @@ Nach Jason Gregory:
 	+ Prozedural-Generiertes: Nur für Faulen
 	+ Mehr Schatten
 	+ ...
+
+-------------------------
+
+* Ziele:
+    * Konzepte der Graphics Programmierung beherrschen
+	* Einen simplen Renderer erstellen können
+
+* Wünsche?
