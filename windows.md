@@ -1,7 +1,7 @@
 ---
 title: Windows App Programming
 author: Sebastian Mendez
-date: Nicht vor 5 Minuten fertig gemacht
+date: Jetzt
 ---
 
 # Meine erste Windows App
